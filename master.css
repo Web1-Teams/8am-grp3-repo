@@ -32,7 +32,7 @@
   border: 0.125rem solid darkgray;
   background-color: gainsboro;
   font-size: 1rem;
-  background-image: url(accounticon.png);
+  background-image: url(account.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1.875rem 1.875rem;
@@ -47,7 +47,7 @@
   border: 0.125rem solid darkgray;
   background-color: gainsboro;
   font-size: 1rem;
-  background-image: url(accounticon.png);
+  background-image: url(account.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1.875rem 1.875rem;
@@ -61,7 +61,7 @@
   background-color: gainsboro;
   font-size: 1rem;
   margin-bottom: 3.125rem;
-  background-image: url(emailicon.png);
+  background-image: url(email.png);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1.875rem 1.875rem;
