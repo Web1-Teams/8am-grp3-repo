@@ -1,18 +1,3 @@
-/*.center {
-    display: block;
-   margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9; 
-}*/
-
-
 .form {
     
     flex-direction: column;
@@ -69,29 +54,9 @@ input[type="submit"] {
     font-weight: bold;
 }
 input[type="submit"]:hover {
-    background-color: #a39bb1; /* Darker shade of the original color */
-    transform: scale(1.1); /* Slightly increase the button size */
+    background-color: #a39bb1; 
+    transform: scale(1.1); 
 }
-/*@media (min-width: 48rem) { /* 768px converted to rem (768px ÷ 16 = 48rem) 
-    .center {
-        width: 50%; /* 50% of the screen width 
-        max-width: 37.5rem; /* 600px converted to rem 
-    }
-
-    label {
-        font-size: 1.25rem; /* 20px converted to rem 
-
-    }
-
-    input[type="text"] {
-        font-size: 1.125rem; /* 18px converted to rem 
-
-    }
-
-    input[type="submit"] {
-        font-size: 1.25rem; /* 20px converted to rem 
-    }
-}*/
 @media (max-width: 768px) { 
     .form {
         width: 90%; 
