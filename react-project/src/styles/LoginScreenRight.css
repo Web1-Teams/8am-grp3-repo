@@ -1,0 +1,62 @@
+.login-screen-new-account button:hover {
+    background-color: #6a0dad1b;
+    transform: scale(0.9);
+  }
+  
+  .login-screen-right {
+    width: 50%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-screen-right .login-screen-text {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, #6a0dadae, #000000be);
+    color: white;
+    margin: 10%;
+    border: #6a0dad solid 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 0.5s;
+  }
+  
+  .login-screen-right .login-screen-text:hover {
+    transform: scale(1.1);
+  }
+
+
+
+  @media (max-width: 768px) {
+    .login-screen-header {
+      text-align: left;
+    }
+  
+    .login-screen-right .login-screen-text {
+      font-size: 1.5rem;
+    }
+  
+    .login-screen-right {
+      width: 100vw;
+    }
+  }
+
+  @media (max-height: 800px) {
+    .login-screen-right .login-screen-text {
+      font-size: 1.7rem;
+    }
+  
+    .login-screen-header-gap {
+      padding: 2.1rem;
+    }
+  }
