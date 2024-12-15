@@ -1,0 +1,237 @@
+body {
+  background-image: url("main-bgimg4.jpg");
+}
+
+.main-header {
+  background: linear-gradient(to right, #6a0dad, #000000);
+  color: #fff;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 1rem 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+}
+
+.main-header h1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-header h1:active {
+  transform: translateY(0.5rem);
+}
+
+.main-header #main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  width: 50rem;
+}
+
+.main-header #main-nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.main-header #main-nav ul li a:hover {
+  background-color: #ffffff;
+  color: #55046b;
+  transform: scale(1.1);
+}
+
+.main-header #main-nav ul li a:active {
+  transform: translateY(0.5rem);
+}
+
+.main-screen-desc {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(to right, #500b85, #03011c);
+  color: white;
+  transition: 0.5s;
+
+  
+}
+
+
+.main-screen-desc h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.main-screen-desc p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.main-screen-courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.main-screen-courses .course-card {
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+
+.main-screen-courses .course-card:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.main-screen-courses .course-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-screen-courses .course-card h3 {
+  font-size: 1.5rem;
+  color: #55046b;
+  margin-bottom: 0.5rem;
+}
+
+.main-screen-courses .course-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.main-screen-courses .course-card button {
+  padding: 0.7rem 2rem;
+  background-color: #55046b;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.main-screen-courses .course-card button:hover {
+  background-color: #ffffff;
+  color: #55046b;
+  border: #55046b solid 0.1rem;
+  transform: scale(1.01);
+}
+
+.main-screen-courses .course-card button:active {
+  transform: translateY(0.5rem);
+}
+
+.main-screen-about {
+  padding: 3rem;
+  text-align: center;
+  background: #32013f;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.main-screen-about h2 {
+  font-size: 2em;
+}
+
+.main-footer {
+  background-color: #32013f;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  direction: rtl;
+}
+
+.main-footer p {
+  font-size: 1rem;
+}
+
+.main-footer nav ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main-footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: inline-block;
+}
+
+.main-footer nav ul li a:hover {
+  background-color: #ffffff;
+  color: #55046b;
+  transform: scale(1.1);
+}
+
+.main-footer .social-icons a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 15px;
+  margin-bottom: 2rem;
+  display: inline-block;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0 1rem;
+  border-radius: 0.7rem;
+}
+
+.main-footer .social-icons a:hover {
+  background-color: #ffffff;
+  color: #55046b;
+  transform: scale(1.1);
+}
+
+.main-footer .main-donation a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.main-footer .main-donation a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 1rem #ffb3ff, 0 0 1rem #ff99ff;
+}
+
+@media (max-width: 60rem) {
+  .main-screen-courses {
+    grid-template-columns: 1fr;
+  }
+
+
+  .main-header{
+    position: static;
+  }
+
+  .main-header #main-nav ul 
+  {
+    flex-direction: column;
+  }
+}
