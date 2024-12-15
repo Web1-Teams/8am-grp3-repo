@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import '../styles/sign-in-hana.css'
-const TextLabel=()=>{
+import '../styles/login-screen-form-button.css'
+const LoginScreenForm=()=>{
     const [email, setEmail] = useState("");
    const [password, setPassword] = useState("");
    const handleEmailChange = (e) => setEmail(e.target.value);
@@ -9,7 +9,7 @@ const TextLabel=()=>{
    
 return(
   <div className='sign-in-left-side'>
-    <div className="header">Sign in<br/></div>
+    <div className="header">Sign in<br/><br/></div>
     <div className="password-email-container">
       <div className="form-floating mb-3">
         <input
@@ -36,8 +36,7 @@ return(
       </div>
     </div>
     <div className='forget-password'> Forget password?</div>
-    <div className="sign-in-button "   button type="submit">Sign in</div>
-    <div className="login-screen-or"> <span>--------------or--------------</span></div>
+    
     
 
   </div>
@@ -48,4 +47,4 @@ return(
 
 
 }
-export default TextLabel;
+export default LoginScreenForm;
