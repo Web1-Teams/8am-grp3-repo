@@ -1,9 +1,22 @@
-import DonationScreen from "./components/DonationScreen";
+import CardNumberField from "./components/CardHolderName";
+import CardHolderName from "./components/CardNumberHolder";
+import CvvNumber from "./components/CvvNumber";
+import "./DonationScreen.css";
 
 
 function App() {
   return(
-    <div><DonationScreen /></div>
+    <>
+
+        <form class="donation-screen-Form"> 
+
+            <CardHolderName />
+            <CardNumberField />
+            <CvvNumber />
+   
+        </form>         
+
+      </>
   );
 }
 
