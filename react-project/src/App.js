@@ -1,8 +1,9 @@
+import DonationScreen from "./components/DonationScreen";
 
 
 function App() {
   return(
-    <div>My React App</div>
+    <div><DonationScreen /></div>
   );
 }
 
