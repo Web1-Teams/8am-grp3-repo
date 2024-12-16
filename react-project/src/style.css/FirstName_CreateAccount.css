@@ -1,0 +1,13 @@
+#Creat-account-fname {
+    margin-left: 13.75rem;
+    width: 12.5rem;
+    height: 2.5rem;
+    border-radius: 0.5625rem;
+    border: 0.125rem solid darkgray;
+    background-color: gainsboro;
+    font-size: 1rem;
+    
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 1.875rem 1.875rem;
+  }
