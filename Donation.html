@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Donation.css" />
+    <title>Donation</title>
+  </head>
+  <body>
+    <div class="donation-screen-background-container">
+      <form class="donation-screen-Form">
+        <div class="donation-screen-cardnumber">
+          <label for="donation-screen-cardnumber">Card Number</label>
+          <br />
+          <small>Enter the 16-digit card number on the card</small>
+          <input
+            type="text"
+            id="cardnumber"
+            placeholder="xxxx - xxxx - xxxx - xxxx"
+            required
+            maxlength="16"
+          />
+        </div>
+
+        <div class="donation-screen-name">
+          <label for="donation-screen-name">Card Number Holder</label>
+          <br />
+          <small>Enter name card holder on the card</small>
+          <input type="text" required placeholder="Donor Name" id="name" />
+        </div>
+
+        <div class="donation-screen-cvv">
+          <label for="donation-screen-cvv">CVV Number</label>
+          <br />
+          <small>Enter the 3 or 4 digits number on the card</small>
+          <input
+            type="text"
+            required
+            placeholder="3-digit code is on the back of the card"
+            id="cvv"
+            maxlength="4"
+          />
+        </div>
+
+        <div class="donation-screen-date">
+          <label for="donation-screen-date">Expiry Date</label>
+          <br />
+          <small>Enter the expiration date of the card</small>
+          <input
+            id="date"
+            required
+            type="text"
+            placeholder="MM"
+            maxlength="2"
+          />
+          <span>/</span>
+          <input
+            id="date"
+            required
+            type="text"
+            placeholder="YYYY"
+            maxlength="4"
+          />
+        </div>
+        <div class="donation-screen-amount">
+          <label for="donation-screen-amount">Amount</label>
+          <input type="text" placeholder="Money Amount" required id="amount" />
+        </div>
+        <input type="submit" value="Pay Now" id="Payment" />
+      </form>
+    </div>
+  </body>
+</html>
