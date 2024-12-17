@@ -1,0 +1,20 @@
+.main-footer nav ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .main-footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    display: inline-block;
+    
+  }
