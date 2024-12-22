@@ -1,25 +1,11 @@
 import './App.css';
-import Border from './components/Border';
+import MAin from './components/Main';
 
 function App() {
   return (
-
-  <Border />
-
-
-
     
-   
-
-
+    <MAin/>
   );
-
 }
-
-
-
-
-
-
 
 export default App;
