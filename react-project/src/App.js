@@ -1,8 +1,10 @@
-
+import './App.css';
+import MAin from './components/Main';
 
 function App() {
-  return(
-    <div>My React App</div>
+  return (
+    
+    <MAin/>
   );
 }
 
