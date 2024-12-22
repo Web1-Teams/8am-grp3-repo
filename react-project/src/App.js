@@ -1,9 +1,25 @@
-
+import './App.css';
+import Border from './components/Border';
 
 function App() {
-  return(
-    <div>My React App</div>
+  return (
+
+  <Border />
+
+
+
+    
+   
+
+
   );
+
 }
+
+
+
+
+
+
 
 export default App;
