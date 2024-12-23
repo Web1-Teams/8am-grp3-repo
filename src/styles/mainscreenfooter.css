@@ -1,0 +1,12 @@
+.main-footer {
+    background-color: #32013f;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    direction: rtl;
+  }
+  
+  .main-footer p {
+    font-size: 1rem;
+  }
+  
