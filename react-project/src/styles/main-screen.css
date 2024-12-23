@@ -1,0 +1,92 @@
+.main-screen-description {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(to right, #500b85, #03011c);
+    color: white;
+    transition: 0.5s;
+  
+  }
+  
+  .main-screen-description h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .main-screen-description p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+.main-screen-about {
+    padding: 3rem;
+    text-align: center;
+    background: #32013f;
+    color: white;
+    margin-bottom: 5rem;
+  }
+  
+  .main-screen-about h2 {
+    font-size: 2em;
+  }
+
+  .main-screen-courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .main-screen-courses .course-card {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 1rem;
+    transition: 0.2s;
+  }
+  
+  .main-screen-courses .course-card:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-screen-courses .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .main-screen-courses .course-card h3 {
+    font-size: 1.5rem;
+    color: #55046b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .main-screen-courses .course-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .main-screen-courses .course-card button {
+    padding: 0.7rem 2rem;
+    background-color: #55046b;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .main-screen-courses .course-card button:hover {
+    background-color: #ffffff;
+    color: #55046b;
+    border: #55046b solid 0.1rem;
+    transform: scale(1.01);
+  }
+  
+  .main-screen-courses .course-card button:active {
+    transform: translateY(0.5rem);
+  }
