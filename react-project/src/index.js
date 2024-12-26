@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Footer from "./components/Footer";
-
+import CheckboxComponent from "./components/CheckboxComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Footer/>
+    <CheckboxComponent/>
   </React.StrictMode>
 );
