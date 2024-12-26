@@ -1,0 +1,20 @@
+.login-screen-header {
+  background: linear-gradient(to right, #6a0dad, #000000);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+}
+
+.login-screen-header-gap {
+  width: 100%;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .login-screen-header {
+    text-align: left;
+  }
+}
