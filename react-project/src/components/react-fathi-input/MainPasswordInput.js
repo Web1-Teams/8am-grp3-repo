@@ -1,7 +1,8 @@
-import Button from "./Button";
-import Input from "./Input";
+import Input from "./ForgetInput";
+import "./Forget.css"
 import { useState } from "react";
-import "./Card.css";
+import "../react-fathi-border/ForgetCard.css";
+import ButtonForget from "../react-fathi-button/ButtonForget";
 
 const ResetPasswordForm = () => {
   const [password, setPassword] = useState("");    
@@ -37,8 +38,7 @@ const ResetPasswordForm = () => {
           <br />
 
           {error && <p className="error-message">{error}</p>}
-
-          <Button />
+<ButtonForget/>
         </form>
       </div>
     </div>

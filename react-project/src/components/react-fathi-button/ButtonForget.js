@@ -1,5 +1,5 @@
 import "./Button.css"
-function Button() {
+function ButtonForget() {
   return (
     <input
       className="forget-password-3rd-pg-input-submit"
@@ -9,4 +9,4 @@ function Button() {
   );
 }
 
-export default Button;
+export default ButtonForget;

@@ -1,6 +1,6 @@
-import "./sty.css"
+import "../react-fathi-border/EmailCard.css"
 
-function Teext(){
+function EmailForm(){
     return (
 
             <div >
@@ -13,7 +13,7 @@ function Teext(){
     </div>
     )
     }
-    export default Teext;
+    export default EmailForm;
 
 
 

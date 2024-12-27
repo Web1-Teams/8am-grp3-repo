@@ -1,4 +1,4 @@
-import "./Input.css"
+import "./InputForget.css"
 function Input(props) {
     return (
       <input

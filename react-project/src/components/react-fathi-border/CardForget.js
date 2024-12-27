@@ -1,5 +1,5 @@
-import ResetPasswordForm  from "./PasswordInput";
-import "./Card.css"
+import ResetPasswordForm  from "../react-fathi-input/MainPasswordInput";
+import "./ForgetCard.css"
 function Border(){
 return(
 

@@ -1,7 +1,6 @@
-import BUtton from "./Butt";
-import Teext from "./Teext";
-import "./sty.css"
-
+import Teext from "../react-fathi-input/InputEmail";
+import "./EmailCard.css"
+import BUtton from "../react-fathi-button/ButtonSendEmail"
 function MAin(){
         return (
 
@@ -10,8 +9,7 @@ function MAin(){
 <Teext/>
 <br />
 
-<BUtton/>
-
+<BUtton/>  
 </div>
 </div>
 
