@@ -1,6 +1,6 @@
-import "./../styles/donation-screen-background-container.css"
-import "./../styles/donation-screen-date.css"
-import "./../styles/donation-screen-Form.css"
+import "./donation-screen-background-container.css"
+import "./donation-screen-date.css"
+import "./donation-screen-Form.css"
 function DonationInput()
 {
     return(
