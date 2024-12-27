@@ -1,0 +1,114 @@
+body {
+    background-image: url("../components/main-bgimg4.jpg");
+}
+  
+  .main-header {
+    background: linear-gradient(to right, #6a0dad, #000000);
+    color: #fff;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+  }
+  
+  .main-header h1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .main-header h1:active {
+    transform: translateY(0.5rem);
+  }
+  
+  .main-header #main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 50rem;
+  }
+  
+  .main-header #main-nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+  }
+  
+  .main-header #main-nav ul li a:hover {
+    background-color: #ffffff;
+    color: #55046b;
+    transform: scale(1.1);
+  }
+  
+  .main-header #main-nav ul li a:active {
+    transform: translateY(0.5rem);
+  }
+  
+
+  .menu
+  {
+    display: none;
+    position: absolute;
+    top:1.5rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;    
+  }
+
+  .menu span {
+    height: 0.38rem; 
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+  }
+
+  @media (max-width: 60rem) {
+
+    .main-screen-courses {
+      grid-template-columns: 1fr;
+    }
+
+    .main-header h1:hover {
+      transform: none;
+      cursor: default;
+    }
+
+    .main-header {
+      position: static;
+      padding-left: 1rem;
+      flex-direction: column; 
+    }
+
+    .main-header #main-nav ul {
+      display: none; 
+      flex-direction: column;
+      width: 100%;
+      text-align: end;
+    }
+  
+    .main-header .menu {
+      display: flex; 
+    }
+    .main-header #main-nav ul.menu-open {
+      display: flex;
+    }
+  
+    .main-header #main-nav ul li a {
+      padding: 1.3rem;
+      width: 100%;
+    }
+  
+  }
+
+  
