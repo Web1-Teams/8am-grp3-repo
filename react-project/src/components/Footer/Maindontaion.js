@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles//MainScreenFooter.css';
+import "./MainScreenFooter.css";
 
 const Maindontaion = () =>{
     return(

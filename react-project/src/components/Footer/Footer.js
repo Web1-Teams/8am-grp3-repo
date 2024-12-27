@@ -1,14 +1,14 @@
 import React from "react";
-import MainScreenNav from '../components/MainScreenNav';
-import MainScreenSocial from '../components/MainScreenSocial';
-import Maindontaion from '../components/Maindontaion';
+import MainScreenNav from "./MainScreenNav";
+import MainScreenSocial from "./MainScreenSocial";
+import Maindontaion from "./Maindontaion";
 const Footer = () => {
     return (
       <footer className="main-footer">
         <p>© 2024 مثلاً الواقع تعليمي أفضل</p>
-        <MainScreenNav />
+        <MainScreenNav/>
         <MainScreenSocial/>
-        <Maindontaion />
+        <Maindontaion/>
       </footer>
     );
   };
