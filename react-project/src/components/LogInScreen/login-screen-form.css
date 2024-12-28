@@ -1,27 +1,18 @@
-.sign-in-left-side{
+sign-in-left-side{
     margin-top: 20cap;
     margin-left: 5cap;
     font-family: "Arial Rounded MT Bold", sans-serif;
 }
-.header{
-  font-size: 2rem;
-  position: relative;
-  left: 20px;
-  font-weight: bold;
-  top:20%;
-  color: black;
-  left:11%;
-}
 .password-email-container{
     display: inline-block;
-    width: 30%;
+    width: 70%;
     color: rgb(156, 153, 153);
-    border-radius: 1rem;    
+    border-radius: 1rem;
 }
 .sign-in-button {
     width: 30%;
     padding: .7rem;
-    background-color: #6e00ff;
+    background-color: #6E00FF;
     color: white;
     border: none;
     border-radius: 50px;
@@ -32,7 +23,6 @@
     cursor: pointer;
     text-align: center;
     margin-left: 5cap;
-   
 }
   .sign-in-button:hover {
     background-color: #380485;
@@ -42,13 +32,11 @@
     color: blueviolet;
     font-size: smaller;
     font-weight: bold;
-    color: #6a0dad;
+    color: #6A0DAD;
     text-decoration: none;
     transition: 0.5s;
     cursor: pointer;
-    
 }
-  
 .forgot-password:hover {
     text-decoration: underline;
 }

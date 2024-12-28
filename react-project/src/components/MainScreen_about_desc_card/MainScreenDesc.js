@@ -1,4 +1,4 @@
-import '../styles/main-screen.css'
+import './main_screen_about_desc_card.css'
 const MainScreenDesc=()=>{
     return(
         <section className="main-screen-description">

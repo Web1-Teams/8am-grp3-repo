@@ -1,4 +1,4 @@
-import '../styles/main-screen.css'
+import './main_screen_about_desc_card.css'
 
 const CourseCard = ({ image, alt, title, description, buttonText }) => {
     return (
@@ -59,5 +59,3 @@ const CourseCard = ({ image, alt, title, description, buttonText }) => {
   };
   
 export default MainScreenCourses;
-
-//export default CourseCard;

@@ -1,14 +1,4 @@
-import '../styles/login-screen-form-button.css'
-
-/*const SignInButton=(props)=>{
-    return(
-        <div>
-             <p>Name: {props.name}</p>
-             <div className="sign-in-button "  button type="submit">Sign in</div>
-        </div>
-        
-    );
-}*/
+import './sign_in_button.css'
 const SignInButton = ({ text = "Sign in", className = "sign-in-button", onClick }) => {
     return (
         <button 
