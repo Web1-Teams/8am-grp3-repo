@@ -1,143 +1,101 @@
-/* General Styling */
-.choice-container {
-    display: flex;
-    margin-bottom: 1em;
-    width: 100%;
-    font-size: 1.4rem;
-    border: 0.5rem solid;
-    border-image: linear-gradient(to right, #500b85, #03011c) 1;
-    border-radius: 0.5em;
-    background-color: #303030; 
-}
-
-.choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0.8rem 2rem rgba(72, 138, 197, 0.5);
-    background-color: #424242; 
-}
-
-.choice-prefix {
-    margin: auto 0;
-    padding: 1rem 1.5rem;
-    background-color: #488ac5;
-    border-radius: 0.5em 0 0 0.5em;
-}
-
-.choice-text {
-    padding: 1.5rem;
-    margin: auto;
-}
-
-.stage-screen-body {
-    background: linear-gradient(to right, #500b85, #03011c);
-}
-
-#o {
-    max-width: 100%;
-    display: block;
-    margin: 2em auto;
-    text-align: center;
-}
-
-#stage-screen-card {
-    background-color: rgb(164, 162, 165);
-    border-radius: 1em;
-    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.3);
-    padding: 2em;
-    width: 100%; /* Ensure responsiveness */
-    max-width: 800px; /* Constrain maximum width for large screens */
-    margin: 0 auto;
-}
-
-.box {
-    padding: 1.5em;
-    margin: 1.5em auto;
-    border-radius: 1em;
-    background-color: #303030;
-    color: white;
-    direction: rtl;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.5);
-    font-size: 1.6rem;
-    line-height: 1.8;
-    text-align: center; /* Center-align text for uniform appearance */
-}
-
-button, .btn {
-    border-radius: 0.5em;
-    background-color: #500b85;
-    color: white;
-    font-size: 1.6rem;
-    padding: 0.8em 1.6em;
-    margin: 1.2em auto;
-    display: block;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    max-width: 90%; /* Constrain button width for smaller screens */
-}
-
-button:hover, .btn:hover {
-    background-color: #303030;
-    box-shadow: 0 0.6rem 1.2rem rgba(72, 138, 197, 0.5);
-    transform: translateY(-0.2em);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .choice-container {
-        font-size: 1.4rem; /* Adjust font size for smaller screens */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: stretch; /* Stretch elements to fit container */
+    .stage-screen-body
+    {
+        background-image: url('main-bgimg4.jpg');    
     }
-
-    .choice-prefix {
-        padding: 1rem;
-        font-size: 1.2rem; /* Adjust text size */
-        border-radius: 0.5em 0.5em 0 0; /* Top rounded corners */
-    }
-
-    .choice-text {
-        padding: 1.2rem;
-        font-size: 1.2rem;
-    }
-
     #stage-screen-card {
-        padding: 1.5em;
-        width: 100%; /* Ensure full width for small screens */
-    }
-
-    .box {
-        padding: 1em;
+        color:#500b85;
+        background-color: #ffffff;
+        border-radius: 1em;
+        box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.3);
+        padding: 2em;
+        width: 100%; 
         margin: 1em auto;
-        font-size: 1.4rem; /* Adjust text size */
     }
-
-    button, .btn {
-        padding: 0.6em 1.2em;
-        font-size: 1.4rem; /* Smaller button size */
+    .Question-button{
+        border-radius: 0.5em;
+        background-color: #500b85;
+        color: white;
+        font-size: 1.6rem;
+        padding: 0.8em 1.6em;
+        margin: 1.2em auto;
+        display: block;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        max-width: 80%; 
     }
-}
-
-@media (max-width: 480px) {
-    
-    .choice-container {
-        font-size: 1.2rem;
+    .Question-button:hover {
+        background-color: #303030;
+        box-shadow: 0 0.6rem 1.2rem rgba(72, 138, 197, 0.5);
+        transform: scale(0.990);
     }
-
+    #box-question {
+        background-color: #ffffff;
+        padding: 1.5em;
+        margin: 1.5em auto;
+        border-radius: 3em;
+        box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.5);
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-align: center; 
+    }
+    #question-header
+    {
+        color: #03011c;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
     .choice-prefix {
-        padding: 0.8rem;
-        font-size: 1rem;
+        margin: auto 0;
+        padding: 1.2rem 1.5rem;
+        background-color: #500b85;
+        border-radius: 0.7em 0 0 0.7em;
+        color: #ffffff;
     }
+    .choice-container {
+        display: flex;
+        margin-bottom: 1em;
+        width: 100%;
+        font-size: 1.4rem;
+        border-radius: 1em;
+        background: linear-gradient(to right, #500b85, #03011c);
 
+    }
+    .choice-container:hover {
+        cursor: pointer;
+        box-shadow: 0 0.8rem 2rem rgba(72, 138, 197, 0.5);
+        background-color: #424242;
+        transform: scale(1.013); 
+        transition: transform 0.65s 
+    }
     .choice-text {
-        padding: 1rem;
-        font-size: 1rem;
+        padding: 1.7rem;
+        margin: auto;
+        font-size: 1.5em;
+        color: #ffffff;
     }
 
-    .box {
-        padding: 0.8em;
-        font-size: 1.2rem;
-    }
+    @media (max-width: 48em) { 
 
-    button, .btn {
-        font-size: 1.2rem;
-    }
+        .choice-container {
+            font-size: 1.4rem; 
+            flex-direction: column; 
+            align-items: stretch; 
+        }
+    
+        .choice-prefix {
+            padding: 1rem;
+            font-size: 1.2rem; 
+            border-radius: 0.5em 0.5em 0 0; 
+        }
+    
+        .choice-text {
+            padding: 1.2rem;
+            font-size: 1.6rem;
+        }
+    
+        #stage-screen-card {
+            padding: 1.5em;
+            width: 100%; 
+        }
 }
+    
+    
