@@ -5,7 +5,7 @@ const CreateAcoountPassword = ({ value, setValue }) => {
 
     const [valid,setValid]=useState("");
     const validPassword=(p)=>{
-        const PRegEx=/^(?=.*\d)(?=.*[^\w\d\s]).{8,}$/;//RegEx password
+        const PRegEx=/^(?=.*\d)(?=.*[^\w\d\s]).{6,}$/;//RegEx password
         return(
             PRegEx.test(p)
         )
