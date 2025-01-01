@@ -1,10 +1,9 @@
-import "./donation-screen-background-container.css"
-import "./donation-screen-date.css"
-import "./donation-screen-Form.css"
+import React from "react";
+
 function DonationAmount()
 {
     return(
-        <div className="donation-screen-amount donation-screen-background-container donation-screen-Form">
+        <div className="donation-screen-amount">
         <label for="donation-screen-amount">Amount</label>
         <input type="text" placeholder="Money Amount" required id="amount" />
       </div>

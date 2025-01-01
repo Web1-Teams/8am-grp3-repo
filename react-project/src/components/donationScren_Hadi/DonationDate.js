@@ -1,10 +1,8 @@
-import "./donation-screen-background-container.css"
-import "./donation-screen-date.css"
-import "./donation-screen-Form.css"
+import React from "react";
 function DonationDate()
 {
     return(
-<div className="donation-screen-date donation-screen-background-container donation-screen-Form">
+        <div className="donation-screen-date">
           <label for="donation-screen-date">Expiry Date</label>
           <br />
           <small>Enter the expiration date of the card</small>

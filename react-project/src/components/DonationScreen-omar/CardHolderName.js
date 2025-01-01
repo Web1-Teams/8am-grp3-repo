@@ -12,6 +12,7 @@ function CardNumberField() {
         type="tel"  
         placeholder="xxxx - xxxx - xxxx - xxxx"
         required
+        id = "cardNumber"
         maxlength="19"  
         />
     </div>

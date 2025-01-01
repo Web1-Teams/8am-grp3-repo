@@ -8,7 +8,7 @@ function CardHolderName() {
         <label>Card Number Holder</label>
         <br/>
         <small>Enter name card holder on the card</small>
-        <input type="text" required placeholder="Donor Name" />
+        <input type="text" required placeholder="Donor Name" id='donorName' />
     </div>
     )   
 
