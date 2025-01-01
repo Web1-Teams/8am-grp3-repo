@@ -1,11 +1,30 @@
 import {useState} from 'react';
 import SignInButton from './SignInButton';
 import './login-screen-form.css'
+import { addUser } from '../../data/LogInUser';
+import { LogIn } from '../../data/LogInUser';
+
 const LoginScreenForm=()=>{
    const [email, setEmail] = useState("");
    const [password, setPassword] = useState("");
    const [passwordMsg,setPasswordMsg]=useState("");
    const [emailMsg,setEmailMsg]=useState("");
+   const [msg, setMsg] = useState('');
+
+  const handleLogin = () =>
+  {
+    addUser('alaa', 'alaa123', 'Alaa', 'Ali', 'Alaa@gmail.com');
+    
+    const user = LogIn(email, password)
+    if(user){
+      setMsg('Login successfully')
+      localStorage.setItem("loggedInUser", email);
+      window.location.href = '/MainPage'
+    }
+    else{
+      setMsg('invalid password or email')
+    }
+  }
 
    const CheckValidateEmail = () => {
     const emailRegex = /^[a-zA-Z0-9._]+@[a-z]+\.[a-z]{2,6}$/
@@ -19,11 +38,11 @@ const LoginScreenForm=()=>{
     setEmailMsg("");
   };
   const CheckValidatePassword = () => {
-    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
     
     if (!password) {setPasswordMsg("Please enter a password");}
     else if (passwordRegex.test(password)) { setPasswordMsg("password is valid"); }
-    else {setPasswordMsg("Password must be at least 8 characters long, include an uppercase letter, a lowercase letter, and a number");
+    else {setPasswordMsg("Password must be at least 6 characters long, include an uppercase letter, a lowercase letter, and a number");
      }
     };
     
@@ -74,7 +93,8 @@ return(
         </div>
       </div>
       <div className="forget-password">Forget password?</div>
-      <SignInButton text="Sign in" />
+      {msg && <p className="error-message"> {msg} </p>}
+      <SignInButton text="Sign in" onClick = {handleLogin}/>
     </form>
 );
 }

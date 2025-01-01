@@ -1,6 +1,6 @@
 
 .password-email-container{
-    display: inline-block;
+    display: block;
     width: 70%;
     color: rgb(156, 153, 153);
     border-radius: 1rem;

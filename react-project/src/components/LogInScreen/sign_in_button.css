@@ -11,8 +11,12 @@
     transition: 0.5s;
     cursor: pointer;
     text-align: center;
+    background: linear-gradient(to right, #6a0dad,#000000);
 }
-  .sign-in-button:hover {
-    background-color: #380485;
-    transform: scale(0.9);
+.sign-in-button:hover {
+ background-color: #380485;
+ transform: scale(0.9);
+}
+.sign-in-button:active {
+  transform: translateY(0.5rem);
 }
