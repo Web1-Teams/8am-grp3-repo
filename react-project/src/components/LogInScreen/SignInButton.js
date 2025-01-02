@@ -10,5 +10,4 @@ const SignInButton = ({ text = "Sign in", className = "sign-in-button", onClick 
         </button>
     );
 };
-
 export default SignInButton;
