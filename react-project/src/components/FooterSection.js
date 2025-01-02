@@ -1,12 +1,25 @@
 import React from 'react';
+import {  useNavigate } from 'react-router-dom';
 import './forget.css';
 
 function Footer  (){
+const navigate = useNavigate(); 
+
+  function  handleSend () {
+    const enteredCode = code.join('');
+    if (enteredCode === correctCode) {
+      navigate('path of fathi code'); 
+    } 
+    else
+    {
+      alert('invalid code enter it again');
+    }
+  }
   return (
     <footer className="footer">
-       <link to="">
-      <input type="submit" className="forget-password-2rd-pg-input-submit" value="Send"></input>
-        </link>
+       
+      <input onClick={handleSend} type="submit" className="forget-password-2rd-pg-input-submit" value="Send"></input>
+      
     </footer>
   )
 }
