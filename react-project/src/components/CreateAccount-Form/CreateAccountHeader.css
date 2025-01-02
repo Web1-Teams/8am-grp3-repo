@@ -1,0 +1,46 @@
+.Creat-account-heading h1 {
+    border-width: 1.875rem;
+    padding: 0.625rem;
+    margin-bottom: 0;
+    margin-left: 16.875rem;
+    font-weight: 700;
+    font-family: cursive;
+  }
+  .Creat-account-clarification h2 {
+    color: gray;
+    border-width: 1.875rem;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
+    margin-top: -1.25rem;
+    margin-left: 21.5625rem;
+    font-weight: 700;
+    font-family: cursive;
+  }
+  
+  
+  #Create-account-account {
+    margin-left: 23.125rem;
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(88, 101, 242, 1);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgba(88, 101, 242, 1);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  #Create-account-account:hover {
+    color: white; 
+    border: 1px solid rgba(88, 101, 242, 1);
+    background-color: rgba(88, 101, 242, 1);
+  }
+  
