@@ -1,0 +1,19 @@
+
+.password-email-container{
+    display: block;
+    width: 70%;
+    color: rgb(156, 153, 153);
+    border-radius: 1rem;
+}
+.forget-password{
+    color: blueviolet;
+    font-size: smaller;
+    font-weight: bold;
+    color: #6A0DAD;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}

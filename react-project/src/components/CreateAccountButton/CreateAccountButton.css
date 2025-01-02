@@ -1,0 +1,23 @@
+.login-screen-new-account {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+  }
+  
+  .login-screen-new-account {
+    width: 15rem;
+    background-color: white;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
+    padding: 0.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.5s;
+  }
+  
+  .login-screen-new-account:hover {
+    background-color: #6a0dad1b;
+    transform: scale(0.9);
+  }

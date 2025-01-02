@@ -1,0 +1,109 @@
+.donation-screen-background-container {
+  background-image: url(../../images/BoyPic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*to let the image fit well and when scrolling it doesn't repeat it self */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.donation-screen-Form {
+  background-color: white;
+  padding: 2em 3em 0em 3em;
+  border-radius: 0.1em;
+  width: 50%;
+  display: flex;
+  flex-direction: column; 
+  /*to let the forms be direction as a cloumn with a spacing between each of them */ 
+  gap: 1.25em;
+  min-height: 100vh;
+}
+
+.donation-screen-Form label {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #500b85;
+  /*used the purple color for the label as D.Zaina said and make it bold so it looks nice*/
+  margin-bottom: 0.3em;
+}
+
+.donation-screen-Form small {
+  font-size: 1.1em;
+  color: #888;
+  margin-bottom: 1em;
+  /*the description for the input and tells him what to enter in side 
+  and the placeholder tells what specific value format or type or example to enter*/
+  display: block;
+}
+
+.donation-screen-Form input {
+  width: 80%;
+  display: block;
+  color: rgb(0, 0, 0);
+  border-radius: 0.4em;
+  padding: 1.4em 1em 1.4em 0.4em;
+  font-size: 1em;
+  margin-bottom: 0.6em;
+  margin-top: 1em;
+  font-style: italic;
+}
+
+.donation-screen-Form input:focus , input:hover {
+  background-color: #c6c6c6;
+}
+
+.donation-screen-Form input::placeholder {
+  color: #bcbbbb; 
+  /*because the placeholder isn't the color as i want i change it a bit to make it look better*/ 
+}
+
+.donation-screen-date #date {
+  display: inline;
+  width: 38%;
+}
+
+.donation-screen-Form input[type="submit"] {
+  background: linear-gradient(to right, #500b85, #03011c);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;  /*make the type of the cursor pointer so its better to tell him that the button is submit of clickable*/
+  border-radius: 9em;
+  width: 80%;
+  margin-top: 0.6em;
+  margin-right: auto;
+  border: none; /* removes a border as my team leader wants */
+}
+
+.donation-screen-Form input[type="submit"]:hover {
+  color: rgb(127, 122, 133);
+  transform: scale(1.03);
+  transition: 0.5s;
+  /*when the hover we make animation or a move*/ 
+}
+
+/* to make the page more responsive so i did this an i think its enough */
+@media (max-width: 62em) {
+  
+  .donation-screen-Form {
+    width: 100%; 
+    padding: 1.5em; 
+  }
+  .donation-screen-Form input {
+    width: 100%; 
+    padding: 0.8em; 
+  }
+  .donation-screen-date #date {
+    width: 49%; 
+  }
+  .donation-screen-Form input[type="submit"] {
+    padding: 1.2em; 
+    margin: 0 auto;
+    /*to center the pay now button*/
+  }
+}
+
