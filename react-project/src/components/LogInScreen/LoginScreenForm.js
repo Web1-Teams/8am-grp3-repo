@@ -3,6 +3,7 @@ import SignInButton from './SignInButton';
 import './login-screen-form.css'
 import { addUser } from '../../data/LogInUser';
 import { LogIn } from '../../data/LogInUser';
+import {Link} from  'react-router-dom';
 
 const LoginScreenForm=()=>{
    const [email, setEmail] = useState("");
@@ -64,7 +65,8 @@ const LoginScreenForm=()=>{
 
 return(
 
-<form onSubmit={handleFormSubmit}>
+<>
+<form className="login-form"  onSubmit={handleFormSubmit}>
   <div className="password-email-container">
       <div className="form-floating mb-3">
         <input
@@ -92,10 +94,15 @@ return(
          {passwordMsg && <div className="password-massage">{passwordMsg}</div>}
         </div>
       </div>
-      <div className="forget-password">Forget password?</div>
+     
       {msg && <p className="error-message"> {msg} </p>}
       <SignInButton text="Sign in" onClick = {handleLogin}/>
     </form>
+     <div className="forget-password">
+     <Link to="/ForgetPage" style={{ textDecoration: "none", color: "#6A0DAD"}} >Forget password?</Link>
+      </div>
+
+</>
 );
 }
 export default LoginScreenForm; 
