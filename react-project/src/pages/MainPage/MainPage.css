@@ -1,0 +1,14 @@
+.main-screen-body{
+    background-image : url('../../images/main-bgimg4.jpg');
+}
+
+@media (max-width: 60rem) {
+    .main-screen-courses {
+      grid-template-columns: 1fr;
+    }
+
+    .main-header #main-nav ul 
+    {
+      flex-direction: column;
+    }
+  }

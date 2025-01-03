@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.login-screen-body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.login-screen-header-gap {
+  width: 100%;
+  padding: 1rem;
+}
+
+.login-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.login-screen-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+}
+
+.login-screen-left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 90vh;
+}
+
+.forgot-password a {
+  color: #6a0dad;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-screen-new-account {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .login-screen-header {
+    text-align: left;
+  }
+  .login-screen-main .login-screen-left {
+    order: 1;
+  }
+
+  .login-screen-main {
+    flex-direction: column;
+  }
+
+  .login-screen-left {
+    width: 100vw;
+  }
+
+  .login-screen-right .login-screen-text {
+    font-size: 2rem;
+  }
+
+  .login-screen-right {
+    width: 100vw;
+  }
+}
+
+@media (max-height: 600px) {
+  .login-screen-right .login-screen-text {
+    font-size: 1.7rem;
+  }
+
+  .login-screen-header-gap {
+    padding: 2.1rem;
+  }
+}
