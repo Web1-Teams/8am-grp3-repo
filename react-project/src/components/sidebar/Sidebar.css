@@ -1,0 +1,14 @@
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    color:white;
+    background-color: rgb(105, 18, 148);
+    border-right: 1px solid #ddd;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
