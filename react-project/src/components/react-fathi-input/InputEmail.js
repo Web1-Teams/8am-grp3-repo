@@ -1,19 +1,23 @@
-import "../react-fathi-border/EmailCard.css"
+import "../react-fathi-border/EmailCard.css";
 
-function EmailForm(){
+function EmailForm(props) {
+   
+
     return (
+        <div>
+         
+         <label className="label-forget"for="email"> Enter your email address</label>
+         <br />
+                <input
+                    type="email"
+                    id="text"
+                    value={props.value}
+                    onChange={props.onChange}
+                    className="text-field"
+                />
 
-            <div >
-            <label for="email"> Enter your email address</label>
-            <br />
+        </div>
+    );
+}
 
-            <input
-             type="text" id="email" className="text-field"/>
-
-    </div>
-    )
-    }
-    export default EmailForm;
-
-
-
+export default EmailForm;

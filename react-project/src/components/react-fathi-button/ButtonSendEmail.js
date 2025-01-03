@@ -1,11 +1,11 @@
-import "../react-fathi-border/EmailCard.css"
+import "../../components/react-fathi-border/EmailCard.css"
 
 
 function ButtonSendEmail(){
     return (
 
 
-            <button className="button">Send</button>
+            <button className="button-forget">Send</button>
     )
 
 }

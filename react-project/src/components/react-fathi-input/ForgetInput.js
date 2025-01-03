@@ -4,7 +4,8 @@ function Input(props) {
       <input
         className="forget-password-3rd-pg-input-password"
         type="password"
-        {...props} 
+        value={props.value}
+        onChange={props.onChange}
       />
     );
   }
