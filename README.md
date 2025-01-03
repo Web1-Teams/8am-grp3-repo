@@ -19,6 +19,19 @@
 
 ##### *This project is dedicated to creating an accessible and interactive free learning platform for individuals who cannot read or write. Our mission is to provide education in the most essential subjects—Science, Math, Arabic, and English—helping learners acquire knowledge and skills to improve their lives and make their lives more easier.*
 
+### Empowering Through Knowledge  
+
+*Our project is dedicated to helping those who neither read nor write by providing an interactive and engaging learning platform.  
+We focus on four key areas:*
+1. **Science**: Simplifying the wonders of the natural world.  
+2. **Math**: Teaching essential numerical skills.  
+3. **Arabic**: Building basic literacy and communication.  
+4. **English**: Introducing foundational vocabulary and phrases.
+
+*Each subject includes:*  
+- A **header** to outline the lesson's focus.  
+- An **educational video** to visually explain concepts.  
+- **Simple training** to reinforce learning.  
 
 
 ### **Technologies Used**  
@@ -31,6 +44,8 @@
 ##### 7) HTML (Only for The Structure of the website and it doesn't appear in our files in the main-react branch)
 ##### 8) Figma
 ##### 9) GitHub Sheet(Issues)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
