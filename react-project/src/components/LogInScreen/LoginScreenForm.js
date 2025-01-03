@@ -52,10 +52,11 @@ const LoginScreenForm=()=>{
       setPasswordMsg(""); 
     }; 
 
-  const handleFormSubmit = (e) => {
+  const handleClick = (e) => {
     e.preventDefault();
     CheckValidateEmail();
     CheckValidatePassword();
+    handleLogin();
   
     if (email && password && !emailMsg && !passwordMsg) {
       console.log("Form submitted with:", { email, password });
@@ -66,7 +67,7 @@ const LoginScreenForm=()=>{
 return(
 
 <>
-<form className="login-form"  onSubmit={handleFormSubmit}>
+<form className="login-form" >
   <div className="password-email-container">
       <div className="form-floating mb-3">
         <input
@@ -94,11 +95,12 @@ return(
          {passwordMsg && <div className="password-massage">{passwordMsg}</div>}
         </div>
       </div>
-     
-      {msg && <p className="error-message"> {msg} </p>}
-      <SignInButton text="Sign in" onClick = {handleLogin}/>
     </form>
-     <div className="forget-password">
+
+    {msg && <p style={{color : 'red'}} className="error-message"> {msg} </p>}
+      <SignInButton text="Sign in" onClick = {handleClick}/>
+      
+    <div className="forget-password">
      <Link to="/ForgetPage" style={{ textDecoration: "none", color: "#6A0DAD"}} >Forget password?</Link>
       </div>
 
