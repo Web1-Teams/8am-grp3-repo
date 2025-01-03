@@ -1,0 +1,18 @@
+#Creat-account-lname {
+    margin-left: 3rem; 
+    width: 12.5rem;
+    height: 2.5rem;
+    border-radius: 0.5625rem;
+    border: 0.125rem solid darkgray;
+    background-color: gainsboro;
+    font-size: 1rem;
+  
+  }  
+  @media(max-width:32.9375rem){
+    #Creat-account-lname{
+      position: relative;
+      right: 30.2rem;
+      top: 1rem;
+    }
+  }
+  

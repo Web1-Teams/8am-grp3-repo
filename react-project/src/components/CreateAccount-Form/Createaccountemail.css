@@ -1,7 +1,8 @@
 #Creat-account-Email {
   width: 28.75rem;
   height: 2.5rem;
-  margin-left: 13.75rem;
+  margin-left: 11.3rem;
+  margin-top: 2rem;
   border-radius: 0.5625rem;
   border: 0.125rem solid darkgray;
   background-color: gainsboro;
@@ -11,4 +12,12 @@
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 1.875rem 1.875rem;
+}
+@media(max-width:32.9375rem){
+  #Creat-account-Email{
+    position: relative;
+    top: 2rem;
+    right: 14rem;
+    width: 20rem;
+  }
 }

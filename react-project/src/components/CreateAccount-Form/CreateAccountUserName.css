@@ -1,0 +1,19 @@
+#Create-account-Username {
+    width: 17rem;
+    height: 2.5rem;
+    margin-left: 12rem;
+    border-radius: 0.5625rem;
+    border: 0.125rem solid darkgray;
+    background-color: gainsboro;
+    font-size: 1rem;
+    margin-bottom: 2rem;  
+    margin-top: 2rem;
+    padding: 10px;  
+    
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px; 
+    margin-left: 13.75rem;  
+}
