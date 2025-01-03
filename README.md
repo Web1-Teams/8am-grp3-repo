@@ -1,7 +1,7 @@
 # *8am-grp3-repo*
 
 
-## *Edujoy*  
+## ***Edujoy***  
 
 ##### *Helping those who cannot read and write to learn essential subjects: Science, Math, Arabic, and English.*
 
