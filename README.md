@@ -1,5 +1,7 @@
 # *8am-grp3-repo*
 
+## **Introduction**  
+#### *Millions of people around the world face barriers to learning simply because they lack basic literacy skills. Our project, *Edujoy*, is designed to change that. We aim to create a welcoming and accessible educational platform for individuals who neither read nor write, providing them with the tools to learn essential subjects like **Science**, **Math**, **Arabic**, and **English** in an interactive and Perfect ways.*
 
 ## ***Edujoy***  
 
