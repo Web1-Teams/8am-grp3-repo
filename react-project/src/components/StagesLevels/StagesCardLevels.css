@@ -1,0 +1,58 @@
+.stages-levels-screen {
+  background-image: url('../../images/main-bgimg4.jpg'); /*background for all the stages level*/ 
+}
+
+.login-screen-header-gap {
+  width: 100%; /* Sets the full width of the header gap */
+  padding: 4rem; /* makes a space between the navbar and the first card */
+}
+
+.Stage-Level {
+  position: relative; /* Allows positioning of child elements relative to the container */
+  border-radius: 1em;
+  padding: 1.6em;
+  margin: 1.4em 3em;   /* spacing between the cards */
+  text-align: center;
+  font-size: large;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.Stage-Level:hover {
+  transform: scale(1.05);
+  color: rgb(93, 53, 158); /*the color of the text is covert to purple*/
+}
+
+#Stage-Level-image-prefix {
+  width: 7em;
+  height: 8.48em;
+  border-radius: 0em 1em 1em 0em; /*no corners in the top-right and bottom-right of the element */
+  position: absolute;
+  top: 0;                 /*position the image in the top most right most */
+  right: 0;                   
+}
+
+#Stage-level-header {
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+}
+
+#Stage-level-discription {
+  margin-right: 4.4em;    /*moves the discription for larger screens*/ 
+  font-size: 1.1em;
+}
+
+@media screen and (max-width: 62em) {
+
+
+  #Stage-Level-image-prefix {
+    width: 9em;
+    height: 9em;
+    position: relative;
+    margin-bottom: 1.2em;   /* Space below the image */
+  }
+
+  #Stage-level-discription {
+    margin-right: 0;
+  }
+}
